@@ -1,4 +1,5 @@
 const coding = (input) => {
+    
     input = input.toLowerCase();
     let result = [];
     let textarr = Array.from(input);
@@ -9,6 +10,6 @@ const coding = (input) => {
         if (!arr.includes(item)) { result.push("(") };
      })
      return result.join("");
-     }
+}
 
-     module.exports = {coding};
+module.exports = {coding};
